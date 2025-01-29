@@ -1,9 +1,8 @@
 # 🛠️ MSF Build - Advanced Payload Generator
 
-![msfbuild](https://github.com/user-attachments/assets/d617ca7f-50f8-46b3-be4b-6ed0567277c0)
 *Professional tool for generating obfuscated payloads using Shikata Ga Nai encoder*
 
----
+![msfbuild](https://github.com/user-attachments/assets/d617ca7f-50f8-46b3-be4b-6ed0567277c0)
 
 ## 📜 Descripción
 **MSF Build** es una herramienta CLI para generar payloads ofuscados multiplataforma con medidas anti-detección integradas. Utiliza `msfvenom` bajo el capó y está diseñado para pruebas de penetración éticas.
@@ -14,8 +13,6 @@
 - 🛡️ Medidas básicas anti-detección (modificación de metadatos)
 - 🎨 Interfaz colorida con animaciones
 - 🧩 Generación de payloads en múltiples formatos: `exe`, `elf`, `macho`, `python`
-
----
 
 ## 🚀 Instalación
 
@@ -30,9 +27,10 @@ pip install colorama
 sudo apt install metasploit-framework  # Para sistemas Debian/Ubuntu
 
 # Clonar repositorio
-git clone https://github.com/tu-usuario/msfbuild.git
-cd msfbuild
+git clone https://github.com/afsh4ck/MSF-Build.git
+cd MSF-Build
 ```
+
 ## 🖥️ Uso
 
 Menú de Ayuda:
@@ -85,6 +83,7 @@ python3 msfbuild.py \
   --lport 6500 \
   -o mac_payload
 ```
+
 ## 🛡️ Medidas de Seguridad
 
 - Modificación de timestamps en archivos EXE
