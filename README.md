@@ -109,11 +109,13 @@ Este software está diseñado exclusivamente para:
 El uso malicioso de esta herramienta es estrictamente prohibido. 
 El autor no se hace responsable del uso indebido.
 
-## 🤝 Contribuir
-- Haz fork del proyecto
-- Crea una rama (git checkout -b feature/nueva-funcionalidad)
-- Haz commit de tus cambios (git commit -am 'Añadir funcionalidad X')
-- Push a la rama (git push origin feature/nueva-funcionalidad)
-- Abre un Pull Request
+## 🥷🏼 Autor
+- Autor:       afsh4ck 
+- Instagram:   <a href="https://www.instagram.com/afsh4ck">afsh4ck</a>
+- Youtube:     <a href="https://youtube.com/@afsh4ck">afsh4ck</a>
 
-### Creado con ❤️ por @afsh4ck 
+## ❤️ Soporte
+
+<a href="https://www.buymeacoffee.com/afsh4ck" rel="nofollow"><img width="250" align="left">
+![buy-me-a-coffe](https://github.com/user-attachments/assets/8c8f9e81-334e-469e-b25e-29888cfc9fcc)
+</a>
