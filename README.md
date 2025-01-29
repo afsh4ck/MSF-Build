@@ -1,15 +1,15 @@
-# 🛠️ MSF Build - Advanced Payload Generator
+# 🛠️ MSF Build - Advanced Payload Builder
 
-*Herramienta profesional para generar payloads ofuscados utilizando el codificador Shikata Ga Nai*
+*Herramienta profesional para generar payloads ofuscados con Msfvenom utilizando el codificador Shikata Ga Nai*
 
 ![msfbuild](https://github.com/user-attachments/assets/d617ca7f-50f8-46b3-be4b-6ed0567277c0)
 
 ## 📜 Descripción
-**MSF Build** es una herramienta CLI para generar payloads ofuscados multiplataforma con medidas anti-detección integradas. Utiliza `msfvenom` bajo el capó y está diseñado para pruebas de penetración éticas.
+**MSF Build** es una herramienta CLI para generar payloads ofuscados multiplataforma con medidas anti-detección integradas. Utiliza `msfvenom` para crear los payloads y está diseñado para pruebas de penetración éticas.
 
 ## ✨ Características
 - ✅ Soporte para **Windows**, **Linux** y **macOS**
-- 🔄 Ofuscación con **Shikata Ga Nai** (x86)
+- 🔄 Ofuscación con **Shikata Ga Nai** y múltiples interaciones.
 - 🛡️ Medidas básicas anti-detección (modificación de metadatos)
 - 🎨 Interfaz colorida con animaciones
 - 🧩 Generación de payloads en múltiples formatos: `exe`, `elf`, `macho`, `python`
