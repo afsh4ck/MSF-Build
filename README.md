@@ -1,6 +1,6 @@
 # 🛠️ MSF Build - Advanced Payload Generator
 
-*Professional tool for generating obfuscated payloads using Shikata Ga Nai encoder*
+*Herramienta profesional para generar payloads ofuscados utilizando el codificador Shikata Ga Nai*
 
 ![msfbuild](https://github.com/user-attachments/assets/d617ca7f-50f8-46b3-be4b-6ed0567277c0)
 
@@ -35,19 +35,28 @@ cd MSF-Build
 
 Menú de Ayuda:
 ```
-python3 msfbuild.py -h
+python3 msfbuild.py -h                                                                                  
+    __  ___ _____  ______   ____          _  __     __
+   /  |/  // ___/ / ____/  / __ ) __  __ (_)/ /____/ /
+  / /|_/ / \__ \ / /_     / __  |/ / / // // // __  / 
+ / /  / / ___/ // __/    / /_/ // /_/ // // // /_/ /  
+/_/  /_/ /____//_/      /_____/ \__,_//_//_/ \__,_/   
+-------------------------------------------------------
+     Msfvenom advanced obfuscated payload generator    
+-------------------------------------------------------
+                 Developed by: @afsh4ck                
 
 usage: python3 msfbuild.py --os <OS> --arch <ARCH> --type <TYPE> --lhost <IP> --lport <PORT> -o <OUTPUT> [-i ITERATIONS]
 
 options:
-  --os {windows,linux,macos}     Sistema operativo objetivo
-  --arch {x86,x64}               Arquitectura objetivo
-  --type {exe,elf,macho,python}  Tipo de archivo de salida
-  --lhost IP                     Dirección IP para conexión reversa
-  --lport PORT                   Puerto para conexión reversa
-  -o, --output OUTPUT            Nombre del archivo de salida
-  -i, --iterations ITERATIONS    Iteraciones de ofuscación (solo x86, default: 5)
-  -h, --help                     Mostrar este mensaje de ayuda
+  --os {windows,linux,macos}               Sistema operativo objetivo
+  --arch {x86,x64}                         Arquitectura objetivo
+  --type {exe,elf,macho,python}            Tipo de archivo de salida
+  --lhost LHOST                            Dirección IP para conexión reversa
+  --lport LPORT                            Puerto para conexión reversa
+  -o OUTPUT, --output OUTPUT               Nombre del archivo de salida
+  -i ITERATIONS, --iterations ITERATIONS   Iteraciones de ofuscación (solo x86)
+  -h, --help                               Mostrar este mensaje de ayuda
 ```
 
 ## 💻 Ejemplos
@@ -86,7 +95,7 @@ python3 msfbuild.py \
 
 ## 🛡️ Medidas de Seguridad
 
-- Modificación de timestamps en archivos EXE
+- Modificación de timestamps en archivos .exe
 - Advertencias automáticas para configuraciones incompatibles
 - Validación estricta de parámetros de entrada
 
