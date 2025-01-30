@@ -42,7 +42,7 @@ python3 msfbuild.py -h
  / /  / / ___/ // __/    / /_/ // /_/ // // // /_/ /  
 /_/  /_/ /____//_/      /_____/ \__,_//_//_/ \__,_/   
 -------------------------------------------------------
-     Msfvenom advanced obfuscated payload generator    
+     Msfvenom Advanced Obfuscated Payload Builder    
 -------------------------------------------------------
                  Developed by: @afsh4ck                
 
