@@ -30,7 +30,7 @@ class PayloadGenerator:
             Fore.RED + r" / /  / / ___/ // __/    / /_/ // /_/ // // // /_/ /  ",
             Fore.RED + r"/_/  /_/ /____//_/      /_____/ \__,_//_//_/ \__,_/   ",
             Fore.RED + "-" * banner_width,
-            Fore.RED + "  Msfvenom advanced obfuscated payload generator  ".center(banner_width),
+            Fore.RED + "  Msfvenom Advanced Obfuscated Payload Builder  ".center(banner_width),
             Fore.RED + "-" * banner_width,
             Fore.YELLOW + "Developed by: @afsh4ck".center(banner_width) + Style.RESET_ALL
         ]
