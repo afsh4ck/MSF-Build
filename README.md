@@ -21,7 +21,7 @@
 - Metasploit Framework (`msfvenom`)
 - Terminal con soporte ANSI
 
-```
+```bash
 # Instalar dependencias
 pip install colorama
 sudo apt install metasploit-framework  # Para sistemas Debian/Ubuntu
@@ -34,7 +34,7 @@ cd MSF-Build
 ## 🖥️ Uso
 
 Menú de Ayuda:
-```
+```bash
 python3 msfbuild.py -h                                                                                  
     __  ___ _____  ______   ____          _  __     __
    /  |/  // ___/ / ____/  / __ ) __  __ (_)/ /____/ /
